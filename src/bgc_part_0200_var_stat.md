@@ -127,7 +127,7 @@ initialized or else you must assume they contain some nonsense number.
 > run to run! Never assume the value will be zero, even if you see it
 > is. _Always_ explicitly initialize variables to some value before you
 > use them^[This isn't strictly 100% true. When we get to learning about
-> static storage duration, you'll find the some variables are
+> static storage duration, you'll find that some variables are
 > initialized to zero automatically. But the safe thing to do is always
 > initialize them.].
 
@@ -477,7 +477,7 @@ operators for _and_, _or_, and _not_.
 An example of Boolean "and":
 
 ``` {.c}
-// Do something if x less than 10 and y greater than 20:
+// Do something if x is less than 10 and y is greater than 20:
 
 if (x < 10 && y > 20)
     printf("Doing something!\n");
